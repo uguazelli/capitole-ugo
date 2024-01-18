@@ -58,3 +58,9 @@ curl "http://localhost:8080/api/prices?date=2020-06-16T21:00:00&productId=35455&
 Alternative, you can use tools like Postman or Imnsonia to test it as well.
 
 As all tests are pointing to a Get method, you can directly type the url in your browser as well.
+
+
+## Running the tests
+```bash
+./gradlew clean test
+```
